@@ -10,6 +10,7 @@ namespace Denombrements
     {
         static void Main(string[] args)
         {
+            if (c == 0) { Environment.Exit(0); }
             int c = 1;
             while (c != 0)
             {
@@ -20,7 +21,7 @@ namespace Denombrements
                 Console.Write("Choix :                            ");
                 c = int.Parse(Console.ReadLine());
 
-                if (c == 0) { Environment.Exit(0); }
+               
 
                 if (c == 1)
                 {
